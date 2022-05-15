@@ -1,0 +1,47 @@
+body{
+    background-image: url("./mypic.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+img{
+    width: 300px;height: 300px;
+    float: right;
+    padding-right: 20px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color:red;
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 2px solid black;
+    padding-left: 20px;
+}
+th,tr,td {
+    border: 2px solid black;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+a{
+    padding-left: 20px;
+}
+.first{
+    background-color: red;
+    width: 50%;
+    float: right;
+}
+.second{
+    background-color: green;
+    width: 50%;
+    float: right;
+}
+.third{
+    background-color: blue;
+}
