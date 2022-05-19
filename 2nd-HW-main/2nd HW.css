@@ -1,0 +1,144 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: antiquewhite;
+}
+
+.red {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    background-color: red;
+    border: 3px solid black;
+    height: 50px;
+}
+
+.green {
+    text-align: center;
+    float: left;
+    border: 3px solid black;
+    width: 30%;
+    background-color: green;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.blue {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    background-color: blue;
+    border: 3px solid black;
+    height: 50px;
+}
+
+.yellow {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    background-color: yellow;
+    border: 3px solid black;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.violet {
+    text-align: center;
+    border: 3px solid black;
+    width: 30%;
+    background-color: violet;
+    margin-top: 20px;
+    float:left;
+    height: 50px;
+}
+
+.indigo {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    background-color: indigo;
+    border: 3px solid black;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.orange {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    background-color: orange;
+    border: 3px solid black;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.brown {
+    text-align: center;
+    border: 3px solid black;
+    width: 30%;
+    background-color: brown;
+    margin-top: 20px;
+    float: left;
+    height: 50px;
+}
+
+.black {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    background-color: black;
+    border: 3px solid black;
+    margin-top: 20px;
+    color: white;
+    height: 50px;
+}
+
+.white {
+    text-align: center;
+    border: 3px solid black;
+    margin-top: 20px;
+    float: left;
+    background-color: white;
+    width: 30%;
+    height: 50px;
+}
+
+.pink {
+    text-align: center;
+    border: 3px solid black;
+    width: 30%;
+    background-color: pink;
+    margin-top: 20px;
+    float: left;
+    height: 50px;
+}
+
+.purple {
+    text-align: center;
+    border: 3px;
+    float: left;
+    width: 30%;
+    height: 50px;
+    background-color: purple;
+    border: 3px solid black;
+    margin-top: 20px;
+}
