@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="post">
+
+        <p>Email :<input type="text" name="email" id="" placeholder="enter email"> </p>
+        <p>Password: <input type="password" name="password" id="" placeholder="enter password"></p>
+
+        <input type="checkbox" value="Male" id="male" name="fav_language">
+        <label for="male">Male</label><br>
+        <input type="checkbox" value="Female" id="female" name="fav_language">
+        <label for="female">Female</label><br>
+
+        <p>Choose your favorite Web language:</p>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select> 
+
+        <!-- <input type="submit" value="Log In"> -->
+        <button type="button" id="btn" onclick="alert('data submitted')">submit</button>
+
+
+    </form>
+
+</body>
+
+</html>
