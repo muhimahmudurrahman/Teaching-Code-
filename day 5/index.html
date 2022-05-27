@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body dir="auto">
+    <h2>Text input fields</h2>
+
+    <form>
+        <label for="fname"><i class="fa-solid fa-display"></i>First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname"><i class="fa-solid fa-signature"></i>Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+
+        <label for="lname"><i class="fa-solid fa-phone"></i> Phone:</label><br>
+        <input type="number" name="num" id="lnum" value="880"> <br><br>
+
+        <input type="file" name=""><br><br>
+
+        <input type="submit"><br>
+
+        <input type="radio">
+        <input type="checkbox" required="require">
+
+        <select>
+            <optgroup label="Tutorials">
+                <option value="html"> HTML Tutorial </option>
+                <option value="css"> CSS Tutorials </option>
+                <option value="javascript"> JavaScript </option>
+            </optgroup>
+            <optgroup label="PHP Tutorials">
+                <option value="basicphp"> Basic PHP </option>
+                <option value="advancedphp"> Advanced PHP </option>
+            </optgroup>
+            <optgroup label="Database Tutorials">
+                <option value="sql"> SQL Tutorial </option>
+                <option value="phpdatabase" selected="select"> PHP Database </option>
+            </optgroup>
+        </select>
+
+        <textarea cols="30" rows="7" name="about_you" wrap="hard">Write about you</textarea>
+    </form>
+
+    <p>Note that the form itself is not visible.</p>
+    <p>12/13 Market Road<br/>Mirpur, Dhaka<br/>Bangladesh</p><br/>
+    <p>12/13 Market Road<hr/>Mirpur, Dhaka<hr/>Bangladesh</p><hr/>
+
+    <p>Also note that the default width of text input fields is 20 characters.</p>
+
+
+</body>
+
+</html>
