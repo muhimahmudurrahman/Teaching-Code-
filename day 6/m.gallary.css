@@ -1,0 +1,34 @@
+/* img {
+    height: 250px;
+    width: 350px;
+    padding-left: 25px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container>div {
+    float: left;
+}
+.fa-solid{
+    padding: 10px;
+    font-size: 30px;
+} */
+input{
+    height: 50px;
+}
+
+
+
