@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1>.fas {
+    padding-right: 8px;
+    padding-top: 5px;
+    font-size: 38px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+a:active{
+    color: yellow;
+}
+a:visited {
+    color: green;
+}
+
